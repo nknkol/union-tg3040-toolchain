@@ -15,6 +15,7 @@ RUN apt-get -y update && apt-get -y install \
 	git \
 	libncurses5-dev \
 	libsdl1.2-dev \
+ 	libdrm-dev \
 	libsdl-image1.2-dev \
 	libsdl-ttf2.0-dev \
 	libsdl2-dev \
