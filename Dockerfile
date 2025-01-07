@@ -34,6 +34,7 @@ RUN apt-get -y update && apt-get -y install \
   && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir -p /root/workspace
+RUN pip3 install --upgrade meson
 WORKDIR /root
 
 COPY support .
