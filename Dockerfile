@@ -7,6 +7,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt-get -y update && apt-get -y install \
 	bc \
 	ninja-build \
+	python3-pip \
 	pkg-config \
 	build-essential \
 	bzip2 \
